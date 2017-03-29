@@ -1,6 +1,6 @@
 # tvOS-SnapshotTesting
 
-Result of trying to do Snapshot testing with FBSnapshotTestCase in a tvOS project. 
+Result of trying to do Snapshot testing with [FBSnapshotTestCase](https://github.com/facebook/ios-snapshot-test-case) in a tvOS project. 
 
 **Runtime layout** vs **Layout got as result of testing**:
 
