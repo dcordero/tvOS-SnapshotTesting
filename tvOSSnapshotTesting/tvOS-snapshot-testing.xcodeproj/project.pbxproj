@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE8B13C642F664E058F12DC /* Pods_tvOS_snapshot_testingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A087EFEE573B93BD4823009A /* Pods_tvOS_snapshot_testingTests.framework */; };
+		FFB8A4EB1E8B9C7400154B68 /* tvOS_snapshot_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8A4EA1E8B9C7400154B68 /* tvOS_snapshot_testingTests.swift */; };
+		FFFFE0821E8B9934006EF0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFFE0811E8B9934006EF0DC /* AppDelegate.swift */; };
+		FFFFE0841E8B9934006EF0DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFFE0831E8B9934006EF0DC /* ViewController.swift */; };
+		FFFFE0871E8B9934006EF0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFFE0851E8B9934006EF0DC /* Main.storyboard */; };
+		FFFFE0891E8B9934006EF0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFFE0881E8B9934006EF0DC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB8A4ED1E8B9C7400154B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFFE0761E8B9934006EF0DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFFE07D1E8B9934006EF0DC;
+			remoteInfo = "tvOS-snapshot-testing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04258DE268EC4EBE88066809 /* Pods-tvOS-snapshot-testingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS-snapshot-testingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS-snapshot-testingTests/Pods-tvOS-snapshot-testingTests.release.xcconfig"; sourceTree = "<group>"; };
+		A087EFEE573B93BD4823009A /* Pods_tvOS_snapshot_testingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tvOS_snapshot_testingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE72CBE05ED1D23A5898F8EB /* Pods-tvOS-snapshot-testingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS-snapshot-testingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS-snapshot-testingTests/Pods-tvOS-snapshot-testingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB8A4E81E8B9C7400154B68 /* tvOS-snapshot-testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS-snapshot-testingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB8A4EA1E8B9C7400154B68 /* tvOS_snapshot_testingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS_snapshot_testingTests.swift; sourceTree = "<group>"; };
+		FFB8A4EC1E8B9C7400154B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFFE07E1E8B9934006EF0DC /* tvOS-snapshot-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS-snapshot-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFFE0811E8B9934006EF0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFFFE0831E8B9934006EF0DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFFFE0861E8B9934006EF0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFFFE0881E8B9934006EF0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFFE08A1E8B9934006EF0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB8A4E51E8B9C7400154B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8B13C642F664E058F12DC /* Pods_tvOS_snapshot_testingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFFE07B1E8B9934006EF0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A52B702BB0BE13FD27CB26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE72CBE05ED1D23A5898F8EB /* Pods-tvOS-snapshot-testingTests.debug.xcconfig */,
+				04258DE268EC4EBE88066809 /* Pods-tvOS-snapshot-testingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DC7DE33C931BE69A821314F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A087EFEE573B93BD4823009A /* Pods_tvOS_snapshot_testingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFB8A4E91E8B9C7400154B68 /* tvOS-snapshot-testingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8A4EA1E8B9C7400154B68 /* tvOS_snapshot_testingTests.swift */,
+				FFB8A4EC1E8B9C7400154B68 /* Info.plist */,
+			);
+			path = "tvOS-snapshot-testingTests";
+			sourceTree = "<group>";
+		};
+		FFFFE0751E8B9934006EF0DC = {
+			isa = PBXGroup;
+			children = (
+				FFFFE0801E8B9934006EF0DC /* tvOS-snapshot-testing */,
+				FFB8A4E91E8B9C7400154B68 /* tvOS-snapshot-testingTests */,
+				FFFFE07F1E8B9934006EF0DC /* Products */,
+				45A52B702BB0BE13FD27CB26 /* Pods */,
+				7DC7DE33C931BE69A821314F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFFE07F1E8B9934006EF0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFFE07E1E8B9934006EF0DC /* tvOS-snapshot-testing.app */,
+				FFB8A4E81E8B9C7400154B68 /* tvOS-snapshot-testingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFFE0801E8B9934006EF0DC /* tvOS-snapshot-testing */ = {
+			isa = PBXGroup;
+			children = (
+				FFFFE0811E8B9934006EF0DC /* AppDelegate.swift */,
+				FFFFE0831E8B9934006EF0DC /* ViewController.swift */,
+				FFFFE0851E8B9934006EF0DC /* Main.storyboard */,
+				FFFFE0881E8B9934006EF0DC /* Assets.xcassets */,
+				FFFFE08A1E8B9934006EF0DC /* Info.plist */,
+			);
+			path = "tvOS-snapshot-testing";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB8A4E71E8B9C7400154B68 /* tvOS-snapshot-testingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB8A4F11E8B9C7400154B68 /* Build configuration list for PBXNativeTarget "tvOS-snapshot-testingTests" */;
+			buildPhases = (
+				FF5A4109F428C1AE66E9546F /* [CP] Check Pods Manifest.lock */,
+				FFB8A4E41E8B9C7400154B68 /* Sources */,
+				FFB8A4E51E8B9C7400154B68 /* Frameworks */,
+				FFB8A4E61E8B9C7400154B68 /* Resources */,
+				D6B7C11D63B9C471178A645D /* [CP] Embed Pods Frameworks */,
+				8F4EA398EFBAD92DCBA472B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB8A4EE1E8B9C7400154B68 /* PBXTargetDependency */,
+			);
+			name = "tvOS-snapshot-testingTests";
+			productName = "tvOS-snapshot-testingTests";
+			productReference = FFB8A4E81E8B9C7400154B68 /* tvOS-snapshot-testingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFFFE07D1E8B9934006EF0DC /* tvOS-snapshot-testing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFFE08D1E8B9934006EF0DC /* Build configuration list for PBXNativeTarget "tvOS-snapshot-testing" */;
+			buildPhases = (
+				FFFFE07A1E8B9934006EF0DC /* Sources */,
+				FFFFE07B1E8B9934006EF0DC /* Frameworks */,
+				FFFFE07C1E8B9934006EF0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tvOS-snapshot-testing";
+			productName = "tvOS-snapshot-testing";
+			productReference = FFFFE07E1E8B9934006EF0DC /* tvOS-snapshot-testing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFFE0761E8B9934006EF0DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "David Cordero";
+				TargetAttributes = {
+					FFB8A4E71E8B9C7400154B68 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFFFE07D1E8B9934006EF0DC;
+					};
+					FFFFE07D1E8B9934006EF0DC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFFFE0791E8B9934006EF0DC /* Build configuration list for PBXProject "tvOS-snapshot-testing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFFE0751E8B9934006EF0DC;
+			productRefGroup = FFFFE07F1E8B9934006EF0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFFE07D1E8B9934006EF0DC /* tvOS-snapshot-testing */,
+				FFB8A4E71E8B9C7400154B68 /* tvOS-snapshot-testingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB8A4E61E8B9C7400154B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFFE07C1E8B9934006EF0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFFE0891E8B9934006EF0DC /* Assets.xcassets in Resources */,
+				FFFFE0871E8B9934006EF0DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F4EA398EFBAD92DCBA472B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tvOS-snapshot-testingTests/Pods-tvOS-snapshot-testingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B7C11D63B9C471178A645D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tvOS-snapshot-testingTests/Pods-tvOS-snapshot-testingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5A4109F428C1AE66E9546F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB8A4E41E8B9C7400154B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB8A4EB1E8B9C7400154B68 /* tvOS_snapshot_testingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFFE07A1E8B9934006EF0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFFE0841E8B9934006EF0DC /* ViewController.swift in Sources */,
+				FFFFE0821E8B9934006EF0DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB8A4EE1E8B9C7400154B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFFE07D1E8B9934006EF0DC /* tvOS-snapshot-testing */;
+			targetProxy = FFB8A4ED1E8B9C7400154B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFFE0851E8B9934006EF0DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFFE0861E8B9934006EF0DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB8A4EF1E8B9C7400154B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE72CBE05ED1D23A5898F8EB /* Pods-tvOS-snapshot-testingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tvOS-snapshot-testingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcordero.tvOS-snapshot-testingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOS-snapshot-testing.app/tvOS-snapshot-testing";
+			};
+			name = Debug;
+		};
+		FFB8A4F01E8B9C7400154B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04258DE268EC4EBE88066809 /* Pods-tvOS-snapshot-testingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tvOS-snapshot-testingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcordero.tvOS-snapshot-testingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOS-snapshot-testing.app/tvOS-snapshot-testing";
+			};
+			name = Release;
+		};
+		FFFFE08B1E8B9934006EF0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		FFFFE08C1E8B9934006EF0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFFE08E1E8B9934006EF0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "tvOS-snapshot-testing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcordero.tvOS-snapshot-testing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFFFE08F1E8B9934006EF0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "tvOS-snapshot-testing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dcordero.tvOS-snapshot-testing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB8A4F11E8B9C7400154B68 /* Build configuration list for PBXNativeTarget "tvOS-snapshot-testingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB8A4EF1E8B9C7400154B68 /* Debug */,
+				FFB8A4F01E8B9C7400154B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFFFE0791E8B9934006EF0DC /* Build configuration list for PBXProject "tvOS-snapshot-testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFFE08B1E8B9934006EF0DC /* Debug */,
+				FFFFE08C1E8B9934006EF0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFFE08D1E8B9934006EF0DC /* Build configuration list for PBXNativeTarget "tvOS-snapshot-testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFFE08E1E8B9934006EF0DC /* Debug */,
+				FFFFE08F1E8B9934006EF0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFFE0761E8B9934006EF0DC /* Project object */;
+}
